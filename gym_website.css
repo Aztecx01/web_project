@@ -1,0 +1,43 @@
+.banner{
+    height:250px;
+    background-image:linear-gradient(rgba(0, 229, 255, 0.1),rgba(0,229,255,0.1)), url(download1.jpg);
+    background-position: center;
+    background-size:cover;
+}
+ul{
+    text-align: center;
+    font-size: 20px;
+    padding: 12px;
+}
+li{
+    display: inline;
+    padding: 30px;
+}
+a{
+    color: white;
+}
+.nav{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.one{grid-area: left}
+.two{grid-area: center}
+.three{grid-area: right}
+.four{grid-area: rightb}
+
+.gridcontainer{
+    display: grid;
+    grid-template-areas:'left center center center right right'
+    'left center center center rightb rightb';
+    padding: 20px;
+        
+}
+
+.gridcontainer > div{
+    font-size: 30px;
+    padding: 20px;
+}
+
+p{
+    font-size: 20px;
+}
