@@ -19,8 +19,7 @@
     height:50px;
     background-color: rgba(0, 0, 0, 0.608);
 }
-a{
-    font-kerning: var(300px);
+.nav>ul>li>a{
     font-family: Arial, Helvetica, sans-serif;
     color:rgb(255, 255, 255);
     text-decoration: none;
@@ -58,4 +57,8 @@ ol{
 }
 ul{
     padding: 0px 18px;
+}
+a{
+    color:black;
+    text-decoration: none;
 }
