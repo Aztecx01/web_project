@@ -3,7 +3,7 @@ body{
 }
 .banner{
     position: relative;top: -22px;
-    height:300px;
+    height:350px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(download3.jpg);
     background-position: center;
     background-size: cover;
@@ -81,4 +81,9 @@ button{
 }
 button:hover{
     background-color: rgba(255, 153, 63,0.8);
+    cursor: pointer;
+
+}
+.nav>ul>li>a:hover{
+    color: rgb(184, 184, 184);
 }
