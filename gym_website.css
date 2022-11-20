@@ -87,3 +87,7 @@ button:hover{
 .nav>ul>li>a:hover{
     color: rgb(184, 184, 184);
 }
+.img{
+    position: relative; top: 17px; left: 5px;
+    border-radius: 50px;
+}
