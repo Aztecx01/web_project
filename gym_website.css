@@ -93,9 +93,11 @@ button:hover{
 
 }
 .nav>ul>li>a:hover{
-    color: rgb(184, 184, 184);
+    color: rgb(255, 154, 2);
 }
 .img{
     position: relative; top: 17px; left: 5px;
-    border-radius: 50px;
+}
+img{
+    border-radius: 10px;
 }
