@@ -63,8 +63,16 @@ ol{
     padding: 0px 20px;
 }
 ul{
-    padding: 0px 18px;
+    padding: 0px;
+    margin: 20px;
+    position: relative; left: 10px;
 }
+.two>div{
+    padding: 0px 0px 10px;
+    position: relative; top: 20px;
+    font-size: 27px;
+}
+
 a{
     color:black;
     text-decoration: none;
