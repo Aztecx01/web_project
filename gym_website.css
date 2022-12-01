@@ -27,6 +27,24 @@ body{
     color:rgb(255, 255, 255);
     text-decoration: none;
 }
+button{
+    padding: 8px 12px;
+    position:relative;
+    left:400px; top: -2px;
+    background-color:rgb(255, 153, 63);
+    color:rgb(255, 255, 255);
+    border-radius: 2.5px;
+    border: none;
+    font-size: 15px;
+}
+button:hover{
+    background-color: rgba(255, 153, 63,0.8);
+    cursor: pointer;
+
+}
+.nav>ul>li>a:hover{
+    color: rgb(255, 154, 2);
+}
 
 .one{grid-area: left}
 .two{grid-area: center}
@@ -34,6 +52,7 @@ body{
 .four{grid-area: rightb}
 
 .gridcontainer{
+    background-color: rgba(255, 145, 0, 0.61);
     position: relative;top: -22px;
     gap: 10px;
     display: grid;
@@ -77,24 +96,7 @@ a{
     color:black;
     text-decoration: none;
 }
-button{
-    padding: 8px 12px;
-    position:relative;
-    left:400px; top: -2px;
-    background-color:rgb(255, 153, 63);
-    color:rgb(255, 255, 255);
-    border-radius: 2.5px;
-    border: none;
-    font-size: 15px;
-}
-button:hover{
-    background-color: rgba(255, 153, 63,0.8);
-    cursor: pointer;
 
-}
-.nav>ul>li>a:hover{
-    color: rgb(255, 154, 2);
-}
 .img{
     position: relative; top: 17px; left: 5px;
 }
