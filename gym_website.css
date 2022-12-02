@@ -70,15 +70,22 @@ button:hover{
 .four{grid-area: rightb}
 
 .gridcontainer{
+    background-color: rgb(213, 229, 244);
     position: relative;
-    gap: 10px;
     display: grid;
     grid-template-areas:'left center center center right right'
     'left center center center rightb rightb';
-    padding: 30px;
+    padding: 0px;
     margin: 0px;
         
 }
+.one{
+    position:relative;
+    margin: 0px;
+    background-color: rgb(255, 155, 78);
+
+}
+
 
 .gridcontainer > div{
     font-size: 30px;
