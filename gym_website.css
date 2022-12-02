@@ -101,9 +101,11 @@ li{
     left: -17px;
 }
 ol{
+    font-family: Arial, Helvetica, sans-serif;
     padding: 0px 20px;
 }
 ul{
+    font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
     margin: 20px;
     position: relative; left: 10px;
@@ -115,8 +117,11 @@ ul{
 }
 
 a{
-    
+    font-family: Arial, Helvetica, sans-serif ;  
     text-decoration: none;
+}
+div{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .img{
