@@ -64,9 +64,6 @@ button:hover{
     position: relative; top: 20px;
     padding: 0px 0px 30px;
 }
-.info>p{
-    padding:px;
-}
 .one{grid-area: left}
 .two{grid-area: center}
 .three{grid-area: right}
