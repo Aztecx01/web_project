@@ -1,4 +1,5 @@
 body{
+    width: auto;
     margin: 0px;
 }
 .banner{
@@ -37,6 +38,9 @@ button{
     border: none;
     font-size: 15px;
 }
+button>a{
+    color: white;
+}
 button:hover{
     background-color: rgba(255, 153, 63,0.8);
     cursor: pointer;
@@ -46,6 +50,23 @@ button:hover{
     color: rgb(255, 154, 2);
 }
 
+.info{
+    height: 200px;
+    position: relative; top: -250px;
+    padding: 0px 0px 40px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    border-radius: 100px;
+    text-align: center;
+    position: relative; top: 20px;
+    padding: 0px 0px 30px;
+}
+.info>p{
+    padding:px;
+}
 .one{grid-area: left}
 .two{grid-area: center}
 .three{grid-area: right}
@@ -53,12 +74,13 @@ button:hover{
 
 .gridcontainer{
     background-color: rgba(255, 145, 0, 0.61);
-    position: relative;top: -22px;
+    position: relative;
     gap: 10px;
     display: grid;
     grid-template-areas:'left center center center right right'
     'left center center center rightb rightb';
     padding: 30px;
+    margin: 0px;
         
 }
 
@@ -69,6 +91,9 @@ button:hover{
 
 .one > p{
     font-size: 20px;
+}
+.one>p>a{
+    color:black;
 }
 li{
     font-size: 18px;
@@ -93,7 +118,7 @@ ul{
 }
 
 a{
-    color:black;
+    
     text-decoration: none;
 }
 
