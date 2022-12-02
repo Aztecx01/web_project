@@ -70,7 +70,6 @@ button:hover{
 .four{grid-area: rightb}
 
 .gridcontainer{
-    background-color: rgba(255, 145, 0, 0.61);
     position: relative;
     gap: 10px;
     display: grid;
