@@ -1,5 +1,4 @@
 body{
-    width: auto;
     margin: 0px;
 }
 .banner{
@@ -70,7 +69,7 @@ button:hover{
 .four{grid-area: rightb}
 
 .gridcontainer{
-    background-color: rgb(213, 229, 244);
+    background-color: rgb(191,191,191);
     position: relative;
     display: grid;
     grid-template-areas:'left center center center right right'
@@ -80,9 +79,17 @@ button:hover{
         
 }
 .one{
+    border-right: solid rgb(255, 255, 255);
     position:relative;
     margin: 0px;
-    background-color: rgb(255, 155, 78);
+    background-color: rgb(191, 191, 191);
+
+}
+.two{
+    border-right: solid rgb(255, 255, 255);
+    position:relative;
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
 
 }
 
@@ -97,6 +104,11 @@ button:hover{
 }
 .one>p>a{
     color:black;
+}
+.one>p>a:hover{
+    text
+    text-decoration: underline;
+    font-size: 107%;
 }
 li{
     font-size: 18px;
